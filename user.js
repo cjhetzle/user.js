@@ -463,7 +463,7 @@ user_pref("_user.js.parrot", "1200 syntax error: the parrot's a stiff!");
  * [2] https://datatracker.ietf.org/doc/html/rfc5746
  * [3] https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2009-3555
  * [4] https://www.ssllabs.com/ssl-pulse/ ***/
-user_pref("security.ssl.require_safe_negotiation", true);
+//user_pref("security.ssl.require_safe_negotiation", true);
 /* 1206: disable TLS1.3 0-RTT (round-trip time) [FF51+]
  * This data is not forward secret, as it is encrypted solely under keys derived using
  * the offered PSK. There are no guarantees of non-replay between connections
